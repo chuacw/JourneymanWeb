@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Journeyman.master.cs"
+    Inherits="JourneymanWeb.Journeyman" %>
+<%@ Register TagPrefix="JourneymanHeader" TagName="NavigationHeader" Src="~/NavigationHeader.ascx" %>
+<%@ Register TagPrefix="JourneymanFooter" TagName="Copyright" Src="~/JourneymanCopyright.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="<asp:Literal Text='<%$Resources:Global,htmllang%>' runat='server' />">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+    <title><asp:ContentPlaceHolder ID="title" runat="server" /></title>
+    <link rel="stylesheet" type="text/css" href="styles/sitestyles.css" media="screen" />
+    <!--[if lt IE 7]>
+	<style media="screen" type="text/css">
+	#container {
+		height:100%;
+	}
+	</style>
+	<![endif]-->
+    <script type="text/javascript" src="/scripts/analytics.js"></script>
+</head>
+<body>
+<div id="container">
+   <div id="header"><JourneymanHeader:NavigationHeader ID="NavigationHeader1" runat="server" /></div>
+   <div id="body"><asp:ContentPlaceHolder ID="pagebody" runat="server" /></div>
+   <div id="footer">
+     <div style="float:right"><JourneymanFooter:Copyright runat="server" /></div>
+   </div>
+</div>
+</body>
+</html>

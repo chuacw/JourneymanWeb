@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutJourneyman" xml:space="preserve">
+    <value>About Journeyman Consultancy &amp; Services</value>
+  </data>
+  <data name="Assurance" xml:space="preserve">
+    <value>So, when your company/business use our services, be assured that we'll provide you with the best of our skills and knowledge.</value>
+  </data>
+  <data name="Certifications1" xml:space="preserve">
+    <value>ArcSight Certified Integrator/Administrator (ACIA),</value>
+  </data>
+  <data name="Certifications2" xml:space="preserve">
+    <value>ArcSight ESM Security Analyst (AESA),</value>
+  </data>
+  <data name="Certifications3" xml:space="preserve">
+    <value>Cisco Certified Network Associate (CCNA),</value>
+  </data>
+  <data name="Certifications4" xml:space="preserve">
+    <value>Microsoft Certified Systems Engineer (MCSE),</value>
+  </data>
+  <data name="Certifications5" xml:space="preserve">
+    <value>Qualified Information Security Professional (QISP),</value>
+  </data>
+  <data name="Certifications6" xml:space="preserve">
+    <value>Sun Certified Java Programmer (SCJP), and</value>
+  </data>
+  <data name="Certifications7" xml:space="preserve">
+    <value>Sun Certified System Administrator (SCSA).</value>
+  </data>
+  <data name="JourneymanStartedBy" xml:space="preserve">
+    <value>Journeyman Consultancy &amp; Services is a business started by Chua Chee Wee, an experienced IT engineer, certified in the following areas:</value>
+  </data>
+  <data name="Positions1" xml:space="preserve">
+    <value>Software Engineer</value>
+  </data>
+  <data name="Positions2" xml:space="preserve">
+    <value>Systems Administrator</value>
+  </data>
+  <data name="Positions3" xml:space="preserve">
+    <value>Systems Analyst</value>
+  </data>
+  <data name="Positions4" xml:space="preserve">
+    <value>Systems Engineer</value>
+  </data>
+  <data name="Positions5" xml:space="preserve">
+    <value>Technical Consultant</value>
+  </data>
+  <data name="Positions6" xml:space="preserve">
+    <value>Technical Support Engineer</value>
+  </data>
+  <data name="PriorToWorkedAs1" xml:space="preserve">
+    <value>Prior to starting Journeyman, Chee Wee has worked as</value>
+  </data>
+  <data name="PriorToWorkedAs2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PriorToWorkedAs3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PriorToWorkedAs4" xml:space="preserve">
+    <value>in MNCs and local companies. </value>
+  </data>
+</root>
